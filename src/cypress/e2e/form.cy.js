@@ -1,7 +1,7 @@
 describe('フォームテスト', () => {
     it ('正常に送受信できる', () => {
         const name = 'iwata'
-        const email = 'iwata@goq.co.jp'
+        const email = 'iwata@example.com'
 
         cy.visit('http://localhost:8080')
         // 名前を入力
